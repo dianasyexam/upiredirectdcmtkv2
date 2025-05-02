@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting to UPI app…</title>
+    <meta http-equiv="refresh"
+          content="0; url='upi://pay?pa=piyushgill1209@oksbi&am=AMOUNT&tn=DiceMatkaDeposit_USERID'" />
+  </head>
+  <body>
+    <p>If you are not redirected automatically, <a id="link" href="#">click here to pay</a>.</p>
+    <script>
+      // fill in the real UPI link in both the refresh and the anchor
+      const upiLink = "upi://pay?pa=piyushgill1209@oksbi&am=AMOUNT&tn=DiceMatkaDeposit_USERID";
+      document.getElementById("link").href = upiLink;
+    </script>
+  </body>
+</html>
